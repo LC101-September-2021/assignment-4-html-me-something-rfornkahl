@@ -1,1 +1,118 @@
-/* Write your CSS here! */
+@keyframes backgroundColor {
+  from {
+    background-color: rgba(142, 194, 94, 0.644);
+  }
+  to {
+    background-color: rgba(135, 206, 250, 0.575);
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  width: 540px;
+  height: 700px;
+  margin: 8px;
+  display: block;
+  animation-name: backgroundColor;
+  animation-duration: 10s;
+  font-family: GeoEditRegular, Franklin Gothic Medium, Franklin Gothic,
+    ITC Franklin Gothic, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  border-radius: 60px;
+  padding: 2%;
+  padding-left: 200%;
+}
+
+#mainHeading {
+  font-family: GeoEditRegular, Franklin Gothic Medium, Franklin Gothic,
+    ITC Franklin Gothic, Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 4700;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: red;
+  margin-left: 95%;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(135, 206, 250, 0.829);
+  border: 1px solid #eb8b0d00;
+  border-radius: 20%;
+  -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.884);
+  box-shadow: outset 3 1px 1px rgba(211, 57, 26, 0.89);
+}
+.page_sub_header {
+  font-family: GeoEditRegular, Franklin Gothic Medium, Franklin Gothic,
+    ITC Franklin Gothic, Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin-left: 10%;
+  padding-top: 0.5mm;
+  margin-right: -134%;
+}
+
+#funParagraph {
+  color: green;
+  font-family: GeoEditRegular, Franklin Gothic Medium, Franklin Gothic,
+    ITC Franklin Gothic, Helvetica, Arial, sans-serif;
+  display: block;
+  text-align: center;
+  margin-left: 10%;
+  padding-top: 0.5mm;
+  margin-right: -134%;
+}
+.dog_name {
+  font-family: GeoEditRegular, Franklin Gothic Medium, Franklin Gothic,
+    ITC Franklin Gothic, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 4700;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: red;
+  margin-left: 100%;
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(135, 206, 250, 0.829);
+  border: 1px solid #eb8b0d00;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.884);
+  box-shadow: inset 3 1px 1px rgba(211, 57, 26, 0.89);
+}
+
+.dog_description {
+  margin: 0;
+  padding-left: 10%;
+  padding: 2%;
+  width: 500px;
+  position: absolute;
+}
+#list {
+  text-align: left;
+  padding: 2%;
+  padding-left: 50%;
+}
+footer {
+  margin: 0;
+  position: absolute;
+  top: 280%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: GeoEditRegular, Franklin Gothic Medium, Franklin Gothic,
+    ITC Franklin Gothic, Helvetica, Arial, sans-serif;
+}
