@@ -1,24 +1,3 @@
-@keyframes backgroundColor {
-  from {
-    background-color: rgba(142, 194, 94, 0.644);
-  }
-  to {
-    background-color: rgba(135, 206, 250, 0.575);
-  }
-}
-
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 body {
   width: 540px;
   height: 700px;
