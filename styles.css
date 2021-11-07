@@ -1,12 +1,3 @@
-@keyframes backgroundColor {
-  from {
-    background-color: rgba(142, 194, 94, 0.644);
-  }
-  to {
-    background-color: rgba(135, 206, 250, 0.575);
-  }
-}
-
 @keyframes blink {
   0% {
     opacity: 1;
@@ -23,18 +14,21 @@ body {
   height: 700px;
   margin: 8px;
   display: block;
-  animation-name: backgroundColor;
-  animation-duration: 10s;
+  background-color: lightcoral;
   font-family: GeoEditRegular, Franklin Gothic Medium, Franklin Gothic,
     ITC Franklin Gothic, Helvetica, Arial, sans-serif;
   text-align: center;
+  animation-name: blink;
+  animation-delay: -5s;
+  animation-duration: 13s;
+  animation-iteration-count: 1;
 }
 
 img {
   width: 280px;
-  border-radius: 60px;
-  padding: 2%;
-  padding-left: 200%;
+  border-radius: 70px;
+  float: inline-end;
+  padding-left: 800px;
 }
 
 #mainHeading {
@@ -84,7 +78,7 @@ img {
   color: red;
   margin-left: 100%;
   width: 250px;
-  padding: 10px;
+  padding: 12px;
   margin-bottom: 20px;
   background-color: rgba(135, 206, 250, 0.829);
   border: 1px solid #eb8b0d00;
@@ -96,14 +90,22 @@ img {
 .dog_description {
   margin: 0;
   padding-left: 10%;
-  padding: 2%;
-  width: 500px;
+  width: 400px;
   position: absolute;
 }
 #list {
-  text-align: left;
-  padding: 2%;
-  padding-left: 50%;
+  margin: 0;
+  padding-left: 10%;
+  align-content: flex-start;
+  width: 500px;
+  position: absolute;
+}
+
+.supplies {
+  margin: right;
+  size: auto;
+  border-radius: 70px;
+  float: inline-end;
 }
 footer {
   margin: 0;
