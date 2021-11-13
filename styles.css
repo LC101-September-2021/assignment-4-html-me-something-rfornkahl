@@ -1,1 +1,106 @@
-/* Write your CSS here! */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+body {
+  width: 540px;
+  height: 700px;
+  margin: 8px;
+  display: block;
+  background-color: lightcoral;
+  font-family: GeoEditRegular, Franklin Gothic Medium, Franklin Gothic,
+    ITC Franklin Gothic, Helvetica, Arial, sans-serif;
+  text-align: center;
+  animation-name: blink;
+  animation-delay: -5s;
+  animation-duration: 13s;
+  animation-iteration-count: 1;
+}
+
+img {
+  width: 400px;
+  border-radius: 80px;
+  float: inline-end;
+  margin-left: 700px;
+}
+
+#mainHeading {
+  font-family: ftnk-n4, adobe-notdef;
+  font-size: 50px;
+  font-weight: 1000;
+  font-style: normal;
+  letter-spacing: 0.1px;
+
+  color: red;
+  margin-left: 95%;
+  width: 300px;
+}
+.page_sub_header {
+  font-family: ftnk-n4, adobe-notdef;
+  text-align: center;
+  margin-left: 10%;
+  font-size: 35px;
+  padding-top: 0.5mm;
+  margin-right: -134%;
+  display: block;
+  color: rgba(211, 31, 31, 0.856);
+}
+
+.funParagraph {
+  color: green;
+  font-family: ftnk-n4, adobe-notdef;
+  font-weight: 850;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  margin-left: 10%;
+  padding-top: 0.5mm;
+  margin-right: -134%;
+}
+.dog_name {
+  font-family: ftnk-n4, adobe-notdef;
+  font-size: 50px;
+  font-weight: 4700;
+  text-align: center;
+  margin-left: 10%;
+  padding-top: 16%;
+  margin-right: -134%;
+  display: block;
+  color: rgba(211, 31, 31, 0.856);
+}
+
+.dog_description {
+  margin: 0;
+  padding-left: 10%;
+  font-size: 25px;
+  width: 400px;
+  position: absolute;
+  float: left;
+}
+#list {
+  margin: 0;
+  padding-left: 10%;
+  font-size: 25px;
+  align-content: flex-start;
+  width: 500px;
+  display: list-item;
+  position: absolute;
+}
+
+footer {
+  margin: 0;
+  position: absolute;
+  top: 500%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: GeoEditRegular, Franklin Gothic Medium, Franklin Gothic,
+    ITC Franklin Gothic, Helvetica, Arial, sans-serif;
+}
