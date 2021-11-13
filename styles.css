@@ -25,43 +25,39 @@ body {
 }
 
 img {
-  width: 280px;
-  border-radius: 70px;
+  width: 400px;
+  border-radius: 80px;
   float: inline-end;
-  padding-left: 800px;
+  margin-left: 700px;
 }
 
 #mainHeading {
-  font-family: GeoEditRegular, Franklin Gothic Medium, Franklin Gothic,
-    ITC Franklin Gothic, Helvetica, Arial, sans-serif;
+  font-family: ftnk-n4, adobe-notdef;
   font-size: 50px;
-  font-weight: 4700;
+  font-weight: 1000;
+  font-style: normal;
   letter-spacing: 0.1px;
-  text-align: center;
-  color: red;
+
+  color: rgba(211, 31, 31, 0.856);
   margin-left: 95%;
   width: 300px;
-  padding: 10px;
-  margin-bottom: 20px;
-  background-color: rgba(135, 206, 250, 0.829);
-  border: 1px solid #eb8b0d00;
-  border-radius: 20%;
-  -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.884);
-  box-shadow: outset 3 1px 1px rgba(211, 57, 26, 0.89);
 }
 .page_sub_header {
-  font-family: GeoEditRegular, Franklin Gothic Medium, Franklin Gothic,
-    ITC Franklin Gothic, Helvetica, Arial, sans-serif;
+  font-family: ftnk-n4, adobe-notdef;
   text-align: center;
   margin-left: 10%;
+  font-size: 35px;
   padding-top: 0.5mm;
   margin-right: -134%;
+  display: block;
+  color: rgba(211, 31, 31, 0.856);
 }
 
 .funParagraph {
   color: green;
-  font-family: GeoEditRegular, Franklin Gothic Medium, Franklin Gothic,
-    ITC Franklin Gothic, Helvetica, Arial, sans-serif;
+  font-family: ftnk-n4, adobe-notdef;
+  font-weight: 850;
+  font-size: 20px;
   display: block;
   text-align: center;
   margin-left: 10%;
@@ -69,48 +65,39 @@ img {
   margin-right: -134%;
 }
 .dog_name {
-  font-family: GeoEditRegular, Franklin Gothic Medium, Franklin Gothic,
-    ITC Franklin Gothic, Helvetica, Arial, sans-serif;
-  font-size: 30px;
+  font-family: ftnk-n4, adobe-notdef;
+  font-size: 50px;
   font-weight: 4700;
-  letter-spacing: 0.1px;
   text-align: center;
-  color: red;
-  margin-left: 100%;
-  width: 250px;
-  padding: 12px;
-  margin-bottom: 20px;
-  background-color: rgba(135, 206, 250, 0.829);
-  border: 1px solid #eb8b0d00;
-  border-radius: 50%;
-  -webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.884);
-  box-shadow: inset 3 1px 1px rgba(211, 57, 26, 0.89);
+  margin-left: 10%;
+  padding-top: 16%;
+  margin-right: -134%;
+  display: block;
+  color: rgba(211, 31, 31, 0.856);
 }
 
 .dog_description {
   margin: 0;
   padding-left: 10%;
+  font-size: 25px;
   width: 400px;
   position: absolute;
+  float: left;
 }
 #list {
   margin: 0;
   padding-left: 10%;
+  font-size: 25px;
   align-content: flex-start;
   width: 500px;
+  display: list-item;
   position: absolute;
 }
 
-.supplies {
-  margin: right;
-  size: auto;
-  border-radius: 70px;
-  float: inline-end;
-}
 footer {
   margin: 0;
   position: absolute;
-  top: 280%;
+  top: 500%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
